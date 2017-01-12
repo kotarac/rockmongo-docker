@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+time docker run --name rm -d -p 127.0.0.1:8080:80 $@ rockmongo:latest
